@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(65, 57, 57);
+  color:#c4baba;
+  font-family: sans-serif;
+  margin:0px;
+}
+
+.todo--heading{
+  margin-top:15px;
+  display:flex;
+  justify-content: center;
+  padding-bottom: 4px;
+  box-shadow: 0px 2px 20px #888888;
+}
+
+.container--input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo--input{
+margin-top: 35px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #888888;
+  background-color: rgb(65, 57, 57);;
+  color:#888888;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  
+}
+.todo--btn{
+  min-height: 20px;
+  width:40px;
+  font-size: 40px;
+  outline: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #888888;
+  border-radius: 20%;
+  border:none;
+  /* box-shadow: 5px 5px 15px -5px (rgba(0, 0, 0, 0.3)); */
+  cursor: pointers;
+}
+
+.todo--btn:hover{
+  background-color: rgb(99, 116, 73);
+}
+
+
+
+li{
+  display: flex;
+  padding-left:40px;
+  text-decoration-style: none;
+  list-style-type: none;
+  word-break:break-all;
+  }
+
+.lists{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-size: 20px;
+}
+.rlists{
+  display: flex;
+  justify-content:flex-start;
+  font-size: 20px;
+}
+.Readhead4{
+  padding-left:40px
+}
+
+.list-btn{
+  margin-left: 92rem;
+  padding: 0px 10px;
+  /* margin-top: 10px; */
+  height:50px;
+  padding:0x 10px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(247, 137, 137);
+  background-color: #6e0909;
+  border: none;
+  
+}
+
+.revert-btn{
+  margin-left: 67em;
+  padding: 0px 20px;
+  /* margin-top: 10px; */
+  height:50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(193, 235, 207);
+  background-color: rgb(50, 128, 76);
+  border: none;
+  position:absolute
+  
+}
+.list-btn:hover{
+  background-color: rgb(122, 68, 68);
+}
+
+.delete{
+  margin-left: 50%;
+  width: 100px;
+  padding: 10px 10px;
+  background-color: #888888;
+  border: none;
+
+}
+
+.delete:hover{
+  background-color: rgb(88, 56, 56);
+}
+ul{
+  padding-left:none
+}
+.container--heading{
+  padding: 0.5px 20px;
+}
+.container--todoList{
+  /* display: flex;
+  flex-direction: column; */
+  margin: 20px;
+  border: 1px solid black;
+  /* overflow-block:inherit ; */
+  /* white-space:inherit; */
+  /* word-break:break-all; */
+}
+
+.list--Head{
+  font-weight: 800;
+  padding-right: 10px;
+  color: rgb(236, 101, 101);
+}
+
+.todo--header{
+  display: 0.5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.todo--unread{
+  margin-top:15px;
+  margin-right:35px
+}
+
+.read-btn{
+  margin-left: 67em;
+  padding: 0px 20px;
+  /* margin-top: 10px; */
+  height:50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(193, 235, 207);
+  background-color: rgb(50, 128, 76);
+  border: none;
+  position:absolute
+}
+
+
+.read-btn:hover, .revert-btn:hover{
+  background-color: rgb(115, 209, 115)
+}
+
+
+.onhold{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 0px 20px;
+  height:50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(193, 235, 207);
+  background-color: rgb(236, 101, 101);
+  border: none;
+}
+
+.complete{
+  padding: 0px 20px;
+  margin-bottom: 20%;
+  height:50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(193, 235, 207);
+  background-color: rgb(236, 101, 101);
+  border: none;
+}
+
+.complete:hover{
+  background-color: rgb(240, 49, 49)
+}
+.onhold:hover{
+  background-color: rgb(240, 49, 49);
+}
+
+.onhold--complete{
+  display:flex;
+  justify-content: center;
+  margin-top:100px
+}
+
+.history{
+  border: 1px solid black;
+  margin: 20px;
+  /* padding-left:40px; */
+  
+}
+.history--head{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time--msg{
+  display: flex;;
+  font-size: 12px;
+  padding: 5px 0px;
+  /* padding-top: 120px; */
+}
+.readMsg{
+  border: 1px solid black;
+  margin: 20px;
+  
+}
+.permanent{
+  /* display: flex;
+  justify-content: center; */
+  /* padding: 0px 20px; */
+  margin-left: 87%;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  height:50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: rgb(193, 235, 207);
+  background-color: rgb(236, 101, 101);
+  border: none;
+}
+.permanent:hover{
+  background-color: rgb(240, 49, 49)
+}
